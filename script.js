@@ -206,3 +206,39 @@ closeLogin.addEventListener("click", function () {
 let colors = ["green", "blue"];
 
 colors.push("yellow");
+
+
+
+
+
+
+
+
+
+
+if (5 == 5){
+  console.log ('Hello')
+}
+
+
+let button = document.querySelector ('.btn')
+
+button.addEventListener ('click', function () {
+  button.classList.add ('disabled')
+})
+
+
+
+
+
+if (3 != 5) {
+
+}
+
+
+
+
+
+button.addEventListener ('click', function () {
+  button.classList.add ('active')
+})
