@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="reset">
+        <button class="reset__btn">Reset</button>
+      </div>
+      <div class="balance">
+        <img src="/img/coin.webp" alt="" class="balance__img" />
+        <p class="balance__text">2500</p>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="yachejki"></div>
+      <div class="shop">
+        <div class="categories">
+          <button class="category-btn all active">All</button>
+          <button class="category-btn buildings">Buildings</button>
+          <button class="category-btn plants">Plants</button>
+          <button class="category-btn roads">Roads</button>
+          <button class="category-btn roads">Roads</button>
+          <button class="category-btn roads">Roads</button>
+          <button class="category-btn roads">Roads</button>
+          <button class="category-btn roads">Roads</button>
+        </div>
+        <div class="products">
+          <div class="product">
+            <img class="product__photo" src="img/shop1.png" alt="" />
+            <p class="product__title">shop lvl-1</p>
+            <button class="product__buy" data-product="shop1" data-profit="5">800</button>
+          </div>
+          <div class="product">
+            <img class="product__photo" src="img/house.png" alt="" />
+            <p class="product__title">house</p>
+            <button class="product__buy" data-product="house"  data-profit="20">2000</button>
+          </div>
+
+          <div class="product">
+            <img class="product__photo" src="img/ground.png" alt="" />
+            <p class="product__title">ground</p>
+            <button class="product__buy" data-product="ground"  data-profit="0">100</button>
+          </div>
+
+          <div class="product">
+            <img class="product__photo" src="img/shop1.png" alt="" />
+            <p class="product__title">shop lvl-1</p>
+            <button class="product__buy" data-product="shop3">800</button>
+          </div>
+
+          <div class="product">
+            <img class="product__photo" src="img/melon.png" alt="" />
+            <p class="product__title">Melon</p>
+            <button class="product__buy" data-type="plant" data-product="melon"  data-profit="0.2">50</button>
+          </div>
+
+          <div class="product">
+            <img class="product__photo" src="img/corn.png" alt="" />
+            <p class="product__title">Corn</p>
+            <button class="product__buy" data-type="plant"  data-product="corn"  data-profit="0.08">30</button>
+          </div>
+
+        </div>
+      </div>
+    </main>
+
+    <div class="login">
+      <div class="close">
+        <p>Your name</p>
+        <button class="close-button">
+          <svg
+            class="close-img"
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="orangered"
+              d="m8.4 17l3.6-3.6l3.6 3.6l1.4-1.4l-3.6-3.6L17 8.4L15.6 7L12 10.6L8.4 7L7 8.4l3.6 3.6L7 15.6zm3.6 5q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22"
+            />
+          </svg>
+        </button>
+      </div>
+      <input type="text" class="input-name" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+
+.col-12 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 30px;
+}
+
+body {
+    background-color: rgb(41, 41, 41);
+}
+
+
+.btn {
+    background: white;
+    color: black;
+}
+
+.btn:hover {
+background-color: rgb(191, 191, 191);
+}
+
+.block--settings {
+    width: 70%;
+    height: 70vh;
+    background-color: rgb(117, 117, 117);
+    position: absolute;
+    top: 15vh;
+    left: 15%;
+    display: none;
+}
+
+.close {
+    width: 40px;
+    text-align: left;
+    position: absolute;
+    left: -15px;
+    top: -15px; 
+    
+
+}
